@@ -1,12 +1,41 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
 
 body {
-    background-color: snow;
     font-family: rubik;
+    background-color: #292e33;
+}
+
+.hexo-bg-light {
+    background-color: #3a4147;
+}
+
+.hexo-bg-dark {
+    background-color: #262a2e;
+}
+
+.hexo-text {
+    color:rgba(255, 255, 255, 0.986);
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.img-fill {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+[class*="col-"] {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
 }
 
 .navbar-brand {
     padding-left: 8px;
+    color:rgba(255, 255, 255, 0.986);
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -36,11 +65,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .space-lg {
-    margin-top: 10rem;
+    margin-top: 30rem;
 }
 
 .space-sm {
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .form-logo {
@@ -60,4 +89,9 @@ h1,h2,h3,h4,h5,h6 {
     width: 50%;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+.jumbotron {
+    background: none;
+    text-align: center;
 }
